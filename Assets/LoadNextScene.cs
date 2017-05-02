@@ -7,7 +7,7 @@ public class LoadNextScene : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        DontDestroyOnLoad(this);
 	}
 
     void LoadScene()
